@@ -123,6 +123,9 @@ const UserManagement = () => {
                   Nome de usuário: {user.username}
                 </UserDataWrapper>
                 <UserDataWrapper>Senha: {user.password}</UserDataWrapper>
+                <UserDataWrapper>
+                  Último acesso: {new Date(user.lastAcess).toLocaleDateString()}
+                </UserDataWrapper>
                 <UserDelete>
                   <BtnDelete
                     onClick={() => deleteUser(user._id)}
