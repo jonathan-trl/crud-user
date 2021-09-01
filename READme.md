@@ -2,13 +2,13 @@
 
  
 
-Projeto com a finalidade de Projeto com a finalidade de realizar um CRUD de usuários
+Projeto com a finalidade de realizar um CRUD de usuários
 
 
 
 
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
-[Node.js](https://nodejs.org/en/).
+[Node.js](https://nodejs.org/en/) e [MongoDB](https://www.mongodb.com/pt-br).
 
 
 
