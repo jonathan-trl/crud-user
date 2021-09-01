@@ -124,7 +124,7 @@ const UserManagement = () => {
                 </UserDataWrapper>
                 <UserDataWrapper>Senha: {user.password}</UserDataWrapper>
                 <UserDataWrapper>
-                  Último acesso: {new Date(user.lastAcess).toLocaleDateString()}
+                  Último acesso: {new Date(user.lastAccess).toLocaleDateString()}
                 </UserDataWrapper>
                 <UserDelete>
                   <BtnDelete

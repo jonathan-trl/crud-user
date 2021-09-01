@@ -15,7 +15,7 @@ const UserSchema = new mongoose.Schema({
     required: true,
     selected: false,
   },
-  lastAcess: {
+  lastAccess: {
     type: Date,
     default: Date.now,
   },
